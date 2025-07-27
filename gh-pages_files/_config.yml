@@ -1,0 +1,87 @@
+---
+booktitle: Proceedings of the 7th Symposium on Advances in Approximate Bayesian Inference
+shortname: AABI
+year: '2025'
+volume: '289'
+start: &1 2025-04-29
+end: 2025-04-29
+conference_number: '7'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: AABI2025
+month: 0
+cycles: false
+bibtex_editor: Allingham, James Urquhart and Swaroop, Siddharth
+editor:
+- given: James Urquhart
+  family: Allingham
+- given: Siddharth
+  family: Swaroop
+published: 2025-07-27
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 7th Symposium on Advances in Approximate Bayesian Inference
+    Held in NTU College of Computing and Data Science, Singapore on 29 April 2025
+
+  Published as Volume 289 by the Proceedings of Machine Learning Research on 27 July 2025.
+
+  Volume Edited by:
+    James Urquhart Allingham
+    Siddharth Swaroop
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 29 Apr
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v289"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v289
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v289
+email: ''
+conference:
+  name: Symposium on Advances in Approximate Bayesian Inference
+  url: https://approximateinference.org/
+  location: NTU College of Computing and Data Science, Singapore
+  dates:
+  - *1
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: aabi25_clean.bib
+# Site settings
+# Original source:  aabi25_clean.bib
