@@ -3,7 +3,7 @@ booktitle: Proceedings of the 7th Symposium on Advances in Approximate Bayesian 
 shortname: AABI
 year: '2025'
 volume: '289'
-start: &1 2025-04-29
+start: 2025-04-29
 end: 2025-04-29
 conference_number: '7'
 layout: proceedings
@@ -69,7 +69,7 @@ conference:
   url: https://approximateinference.org/
   location: NTU College of Computing and Data Science, Singapore
   dates:
-  - *1
+  - 2025-04-29
 analytics:
   google:
     tracking_id: UA-92432422-1
